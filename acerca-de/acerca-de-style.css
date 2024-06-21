@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Reboto Mono";
+    src: url(assets/fonts/reboto-mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+body{
+    color: black;
+    margin: 0px;
+}
+
+caption{
+    color: aqua;
+}
+
+th{
+    color: violet;
+}
+
+nav{
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+.anav{
+    font-family: "Roboto Mono", monospace;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.ulnav{
+    display: flex;
+    list-style-type: none;
+}
+
+.linav{
+    padding: 10px;
+}
+
+table{
+    margin: 30px;
+    font-family: "Roboto Mono", monospace;
+    border: 2px solid black;
+}
+
+.tablecontainer{    
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    font-family: "Roboto Mono", monospace;
+    font-size: 10px;
+    text-align: center;
+}
+
+.bionav{
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 10px;   
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    font-family: "Roboto Mono", monospace;
+    font-size: 10px;
+    text-align: center;
+}
